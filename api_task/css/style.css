@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+    background-image: url('https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg?itok=xyVD1jOK');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.weather-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    /* background-color: black; */
+}
+header{
+    padding: 50px 20px 30px 20px;
+}
+h1{
+    font-size: 50px;
+    color:#fbb034;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+header input{
+    width: 100%;
+    padding: 10px;
+    background:transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+.city{
+    font-size: 35px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    text-shadow: 1px 5px rgba(0, 0, 0, 0.9);
+}
+.temp{
+    font-size: 100px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+.desc{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;
+}
+.minmax{
+    font-size: 25px;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
